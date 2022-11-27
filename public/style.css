@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  font-family: "Space Mono", monospace;
+  color: rgb(255, 255, 255);
+  background-color: #0a192f;
+  font-size: 20px;
+}
+
+label {
+  font-size: 36px;
+}
+
+input {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 20px;
+}
+
+.passinfo {
+  font-size: 18px;
+  color: rgb(172, 169, 169);
+}
